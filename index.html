@@ -1,40 +1,94 @@
 <!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<link rel="stylesheet" href="dist/reset.css">
-		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css">
+	<title>reveal.js</title>
 
-		<!-- Theme used for syntax highlighted code -->
-		<link rel="stylesheet" href="plugin/highlight/monokai.css">
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
-			</div>
+	<link rel="stylesheet" href="dist/reset.css">
+	<link rel="stylesheet" href="dist/reveal.css">
+	<link rel="stylesheet" href="dist/theme/white.css">
+
+	<!-- Theme used for syntax highlighted code -->
+	<link rel="stylesheet" href="plugin/highlight/monokai.css">
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section>
+				<h1>
+					CI/CD
+				</h1>
+			</section>
+			<section>
+				<h2></h2>
+				<img src="./assets/cicd.svg" alt="">
+			</section>
+			<section>
+				<h2>Why is CI important?
+				</h2>
+				<br>
+				Alice
+				<img src="./assets/alice.png" alt="">
+				<img src="./assets/error.png" alt="" width="60">
+				<img src="./assets/bob.png" alt="">Bob
+			</section>
+			<section>
+				<h2>The CI/CD pipeline phases
+				</h2>
+				<br>
+				<img src="./assets/ci-cd-flow.png" alt="">
+			</section>
+			<section>
+				<h2>Benefits of the CI/CD pipeline
+				</h2>
+				<ul>
+					<li>Reducing time to deployment through automation</li>
+					<li>Decreasing the costs associated with traditional software development</li>
+					<li>Continuous feedback for improvement</li>
+					<li>Improving the ability to address error detection earlier in the development process</li>
+					<li>Improving team collaboration and system integration</li>
+				</ul>
+			</section>
+			<section>
+				<h2>
+					CI/CD fundamentals
+				</h2>
+				<ul>
+					<li>A single source repository</li>
+					<li>Frequent check-ins to main branch</li>
+					<li>Automated builds</li>
+					<li>Self-testing builds</li>
+					<li>Frequent iterations</li>
+					<li>Stable testing environments</li>
+					<li>Maximum visibility</li>
+					<li>Predictable deployments anytime</li>
+				</ul>
+			</section>
+			<section>
+				<h2>Thank you!</h2>
+			</section>
 		</div>
+	</div>
 
-		<script src="dist/reveal.js"></script>
-		<script src="plugin/notes/notes.js"></script>
-		<script src="plugin/markdown/markdown.js"></script>
-		<script src="plugin/highlight/highlight.js"></script>
-		<script>
-			// More info about initialization & config:
-			// - https://revealjs.com/initialization/
-			// - https://revealjs.com/config/
-			Reveal.initialize({
-				hash: true,
+	<script src="dist/reveal.js"></script>
+	<script src="plugin/notes/notes.js"></script>
+	<script src="plugin/markdown/markdown.js"></script>
+	<script src="plugin/highlight/highlight.js"></script>
+	<script>
+		// More info about initialization & config:
+		// - https://revealjs.com/initialization/
+		// - https://revealjs.com/config/
+		Reveal.initialize({
+			hash: true,
 
-				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
-			});
-		</script>
-	</body>
+			// Learn about plugins: https://revealjs.com/plugins/
+			plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+		});
+	</script>
+</body>
+
 </html>
